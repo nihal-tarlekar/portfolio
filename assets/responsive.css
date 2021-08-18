@@ -11,9 +11,9 @@
         width: 40%;
     }
     .img-exp {
-        top: 2%;
+        top: 6%;
         left: 12%;
-        width: 40%;
+        width: 35%;
     }
     .img-project-done {
         width: 35%;
@@ -36,9 +36,9 @@
         width: 50%;
     }
     .img-exp {
-        top: 2%;
-        left: 2%;
-        width: 50%;
+        top: 6%;
+        left: 5%;
+        width: 42%;
     }
 }
 @media (max-width: 1600px){
@@ -48,9 +48,9 @@
         top: 1%;
     }
     .img-exp {
-        top: 2%;
-        left: 0%;
-        width: 50%;
+        top: 9%;
+        left: 5%;
+        width: 41%;
     }
     .img-project-done {
         width: 40%;
@@ -63,9 +63,9 @@
         top: 1%;
     }
     .img-exp {
-        top: 5%;
-        left: 0%;
-        width: 50%;
+        top: 10%;
+        left: 4%;
+        width: 44%;
     }
 }
 @media (max-width: 1024px) {
@@ -269,9 +269,14 @@
         width: 105%;
         bottom: -2%;
     }
+    .exp-caption{
+        padding-top: 5%;
+    }
     .img-exp{
         position: relative;
         width: 100%;
+        top: 0;
+        left: 0;
     }
     .about-1 {
         margin-top: 0%;
