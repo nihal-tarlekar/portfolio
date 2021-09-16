@@ -4,17 +4,6 @@
         right: 11%;
         top: -11%;
     }
-    .banner{
-        padding-bottom: 3%;
-    }
-    .bg-about {
-        width: 40%;
-    }
-    .img-exp {
-        top: 6%;
-        left: 12%;
-        width: 35%;
-    }
     .img-project-done {
         width: 35%;
     }
@@ -23,7 +12,6 @@
     }
     .work {
         padding-top: 0%;
-        padding-bottom: 18%;
     }
 }
 @media (max-width: 1920px){
@@ -32,25 +20,12 @@
         right: 4%;
         top: -5%;
     }
-    .bg-about {
-        width: 50%;
-    }
-    .img-exp {
-        top: 6%;
-        left: 5%;
-        width: 42%;
-    }
 }
 @media (max-width: 1600px){
     .banner-image {
         width: 50%;
         right: 2%;
         top: 1%;
-    }
-    .img-exp {
-        top: 9%;
-        left: 5%;
-        width: 41%;
     }
     .img-project-done {
         width: 40%;
@@ -61,11 +36,6 @@
         width: 50%;
         right: 2%;
         top: 1%;
-    }
-    .img-exp {
-        top: 10%;
-        left: 4%;
-        width: 44%;
     }
 }
 @media (max-width: 1024px) {
@@ -78,6 +48,9 @@
     }
     .about-caption-1 {
         padding-bottom: 5%;
+    }
+    .bg-about {
+        margin-top: 0%;
     }
 }
 @media (max-width: 800px) {
@@ -157,6 +130,9 @@
     }
 }
 @media (max-width: 480px) {
+    .logo {
+        width: 100%;
+    }
     .banner-caption {
         text-align: center;
         position: relative;
@@ -262,28 +238,17 @@
         padding-top: 5%;
     }
     .about-caption-1 h5 {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 28px;
-    }
-    .bg-about {
-        width: 105%;
-        bottom: -2%;
     }
     .exp-caption{
         padding-top: 5%;
-    }
-    .img-exp{
-        position: relative;
-        width: 100%;
-        top: 0;
-        left: 0;
     }
     .about-1 {
         margin-top: 0%;
     }
     .experience {
         padding-top: 5%;
-        padding-bottom: 40%;
     }
     .img-built {
         width: 100%;
@@ -291,7 +256,7 @@
     }
     .work {
         padding-top: 0%;
-        padding-bottom: 70%;
+        padding-bottom: 10%;
     }
     .img-project-done {
         width: 100%;
@@ -300,8 +265,12 @@
         text-align: center;
     }
     .about {
-        padding-bottom: 60%;
         padding-top: 0%;
+    }
+    .img-exp {
+        width: 100%;
+        margin-top: 0%;
+        margin-bottom: 5%;
     }
     .abt-caption{
         text-align: center;
@@ -321,6 +290,22 @@
     .smt-btn {
         font-size: 16px;
         padding: 10px 20px;
+    }
+    .bg-about {
+        width: 85%;
+    }
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+    .project-details h2, .project-details-1 h2, .project-details p, .project-details .read-more, .project-details-1 p, .project-details-1 .read-more, .more, .more-1{
+        text-align: center;
+    }
+    .project-details, .project-details-1{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 0%;
+    padding-bottom: 10%;
     }
     .form-control {
         font-size: 15px;
@@ -356,7 +341,6 @@
 @media (max-width: 412px){
     .experience {
         padding-top: 5%;
-        padding-bottom: 50%;
     }
     .img-built {
         width: 100%;
@@ -394,7 +378,6 @@
     }
     .experience {
         padding-top: 5%;
-        padding-bottom: 50%;
     }
     .img-built {
         width: 100%;
@@ -469,7 +452,6 @@
         font-size: 14px;
     }
     .about {
-        padding-bottom: 60%;
         padding-top: 5%;
     }
     .about-caption-1 li,
@@ -544,5 +526,8 @@
     .about-caption-1 li, .about-caption-1 p, .form p, .work p {
         font-size: 12px;
         line-height: 22px;
+    }
+    .get-in-touch, .btn-resume, .read-more, .read-more-1, .show-more {
+        font-size: 13px;
     }
 }

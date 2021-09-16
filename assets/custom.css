@@ -7,11 +7,15 @@
     position: relative;
     z-index: 100;
 }
+.container-fluid{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: #f6f7fe14;
+    background-color: #fff;
 }
 .navbar {
     padding-top: 1%;
@@ -22,7 +26,7 @@ button:focus {
     outline: 0;
 }
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'poppinssemibold';
+    font-family: 'poppinsmedium';
     color: #2F4754;
     font-size: 16px;
     position: relative;
@@ -65,14 +69,14 @@ button:focus {
 .banner {
     position: relative;
     background: rgb(242,235,234);
-    background: linear-gradient(180deg, rgba(242,235,234,1) 80%, rgba(255,244,221,1) 100%);
+    background: linear-gradient(180deg, rgba(242,235,234,1) 100%);
     width: 100%;
 }
 .banner-caption {
     position: relative;
     z-index: 100;
     margin-top: 30%;
-    margin-bottom: 40%;
+    margin-bottom: 25%;
 }
 .banner-caption p {
     font-family: 'poppinsregular';
@@ -126,7 +130,10 @@ button:focus {
     background-color: #3f9396;
 }
 .logo {
-    width: 50%;
+    width: 85%;
+}
+.navbar-brand{
+    width: 20%;
 }
 .photo {
     width: 105%;
@@ -148,15 +155,6 @@ button:focus {
 .about {
     position: relative;
     padding-top: 5%;
-    background-color: #fff4dd;
-    padding-bottom: 5%;
-}
-.bg-about{
-    position: absolute;
-    width: 50%;
-    z-index: 0;
-    right: 0%;
-    bottom: 0%;
 }
 .about-caption-1{
     position: relative;
@@ -178,7 +176,13 @@ button:focus {
     padding-top: 0;
     padding-bottom: 2%;
 }
-
+.bg-about{
+    width: 90%;
+    margin-top: -12%;
+}
+.experience h2{
+    text-align: center;
+}
 .about-caption p {
     font-family: 'poppinsregular';
     color: #3d322e;
@@ -192,6 +196,13 @@ button:focus {
     color: #3d322e;
     font-size: 14px;
     line-height: 25px;
+}
+.img-portfolio{
+    width: 100%;
+    margin-top: -15%;
+}
+.wrk-caption{
+    padding-bottom: 5%;
 }
 .exp-caption, .about-caption-1{
     position: relative;
@@ -266,7 +277,7 @@ button:focus {
 .about-caption-1 h5 {
     font-family: 'poppinsbold';
     color: #4b5b49;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
 }
 .about-caption-1 ul {
@@ -288,16 +299,11 @@ button:focus {
     z-index: 100;
     overflow: hidden;
     padding-top: 8%;
-    padding-bottom: 25%;
-    background: linear-gradient(180deg, rgb(242 245 249) 52%, rgba(255,255,255,1) 63%);
-    /* background-color: #fff; */
+    background-color: #fff;
 }
 .img-exp{
-    position: absolute;
-    top: 8%;
-    left: 0%;
-    width: 50%;
-    z-index: 100;
+    width: 100%;
+    margin-top: 10%;
 }
 .work {
     background-color: #fff;
@@ -308,22 +314,7 @@ button:focus {
     position: relative;
     z-index: 100;
 }
-.img-built{
-    position: absolute;
-    z-index: 0;
-    width: 45%;
-    bottom: -5%;
-    right: -10%;
-    animation: mov 40s linear infinite;
-}
-@keyframes mov{
-    from{
-        right: -50%;
-    }
-    to{
-        right: 100%;
-    }
-}
+
 .form h2,
 .form p,
 .work h2,
@@ -332,6 +323,22 @@ button:focus {
 }
 .work h2 {
     padding-bottom: 0;
+}
+.project-details{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+}
+.project-details-1{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 5%;
+}
+.project-details h2, .project-details p, .project-details .read-more{
+    text-align: left;
+}
+.project-details-1 h2, .project-details-1 p, .project-details-1 .read-more{
+    text-align: right;
 }
 .work-details h3 {
     font-family: 'poppinssemibold';
@@ -357,19 +364,19 @@ button:focus {
     margin-left: auto;
     margin-right: auto;
     font-family: 'poppinsregular';
-    color: #2F4754;
+    color: #638c7b;
     font-size: 16px;
     background-color: transparent;
-    border: 2px solid #2F4754;
+    border: 2px solid #638c7b;
     padding: 10px 22px;
     margin-top: 5%;
     margin-bottom: 5%;
     cursor: pointer;
 }
 .show-more:hover{
-    background-color: #2F4754;
+    background-color: #638c7b;
     color: #fff;
-    border-color: #2F4754;
+    border-color: #638c7b;
     transition: 0.3s;
 }
 a .show-more{
@@ -378,7 +385,27 @@ a .show-more{
 a:hover{
     text-decoration: none !important;
 }
-#second-section{
+.read-more, .read-more-1{
+    font-family: 'poppinsregular';
+    color: #638c7b;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #638c7b;
+    padding: 10px 22px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.read-more:hover, .read-more-1:hover{
+    background-color: #638c7b;
+    color: #fff;
+    border-color: #638c7b;
+    transition: 0.3s;
+}
+.more{
+    text-align: right;
+}
+#second-section, #second-section-1{
     display: none;
 }
 .project {
