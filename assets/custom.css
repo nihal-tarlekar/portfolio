@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #3f9396;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2F4754;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #638c7b;
+}
+
 .navigation {
     position: relative;
     z-index: 100;
