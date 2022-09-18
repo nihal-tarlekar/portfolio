@@ -4,102 +4,127 @@
         right: 11%;
         top: -11%;
     }
+
     .img-project-done {
         width: 35%;
     }
+
     .experience {
         padding-top: 5%;
     }
+
     .work {
         padding-top: 0%;
     }
 }
-@media (max-width: 1920px){
+
+@media (max-width: 1920px) {
     .banner-image {
         width: 45%;
         right: 4%;
         top: -5%;
     }
 }
-@media (max-width: 1600px){
+
+@media (max-width: 1600px) {
     .banner-image {
         width: 50%;
         right: 2%;
         top: 1%;
     }
+
     .img-project-done {
         width: 40%;
     }
 }
-@media (max-width: 1440px){
+
+@media (max-width: 1440px) {
     .banner-image {
         width: 50%;
         right: 2%;
         top: 1%;
     }
 }
+
 @media (max-width: 1024px) {
+
     .banner-caption h1,
     .banner-caption h2 {
         font-size: 32px;
     }
+
     .pie-wrapper {
         margin: 20px;
     }
+
     .about-caption-1 {
         padding-bottom: 5%;
     }
+
     .bg-about {
         margin-top: 0%;
     }
 }
+
 @media (max-width: 800px) {
     .social-links {
         display: none;
     }
+
     .menu-icon {
         width: 100%;
     }
+
     .navbar-toggler-icon {
         background-image: none !important;
     }
+
     .navbar-light .navbar-toggler {
         border: 0;
     }
+
     .navbar-nav {
         padding-left: 2%;
         padding-top: 2%;
         padding-bottom: 2%;
     }
+
     .banner-caption {
         margin-top: 25%;
         margin-bottom: 40%;
     }
+
     .img-built {
         width: 60%;
     }
+
     .banner-image {
         margin-top: 0;
     }
+
     .banner-caption h1,
     .banner-caption h2 {
         font-size: 26px;
     }
+
     .banner-caption h6 {
         font-size: 14px;
         line-height: 20px;
         padding-top: 3%;
         padding-bottom: 3%;
     }
+
     .get-in-touch {
         font-size: 14px;
     }
+
     .about h2,
     .experience h2,
     .form h2,
     .work h2 {
         font-size: 22px;
     }
+
     .about-caption-1 li,
     .about-caption-1 p,
     .form p,
@@ -107,9 +132,11 @@
         font-size: 14px;
         line-height: 22px;
     }
+
     .about-caption h1 {
         font-size: 24px;
     }
+
     .pie-wrapper {
         position: relative;
         margin-left: 24%;
@@ -117,22 +144,27 @@
         margin-bottom: 10%;
         margin-right: 20%;
     }
+
     .know-more,
     .smt-btn {
         font-size: 12px;
         padding: 5px 10px;
     }
+
     .work-details h3 {
         font-size: 12px;
     }
+
     .form-control {
         font-size: 14px;
     }
 }
+
 @media (max-width: 480px) {
     .logo {
         width: 100%;
     }
+
     .banner-caption {
         text-align: center;
         position: relative;
@@ -141,22 +173,27 @@
         z-index: 9999;
         margin-bottom: 60%;
     }
+
     .get-in-touch {
         font-size: 16px;
     }
+
     .banner-caption p {
         font-size: 16px;
     }
+
     .banner-caption h1,
     .banner-caption h2 {
         font-size: 32px;
     }
+
     .banner-caption h6 {
         font-size: 16px;
         line-height: 25px;
         padding-right: 5%;
         padding-bottom: 5%;
     }
+
     .banner-image {
         width: 100%;
         right: 0%;
@@ -165,25 +202,31 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     .photo {
         width: 100%;
     }
+
     .about-caption {
         padding-bottom: 5%;
     }
+
     .social-links li {
         text-align: center;
         padding-right: 10%;
         padding-left: 0%;
     }
+
     .social-links ul {
         display: -webkit-inline-box;
         padding-left: 0;
         margin-top: 0%;
     }
+
     .about-content:first-child {
         padding-left: 0%;
     }
+
     .fa.fa-linkedin-square {
         border: 1px solid #638c7b;
         background-color: #638c7b;
@@ -192,6 +235,7 @@
         padding: 26%;
         font-size: 30px;
     }
+
     .fa.fa-envelope {
         border: 1px solid #638c7b;
         background-color: #638c7b;
@@ -200,15 +244,19 @@
         padding: 26%;
         font-size: 24px;
     }
+
     .about-content {
         padding-left: 0;
     }
+
     .about-caption h1 {
         font-size: 30px;
     }
+
     .about-caption p {
         font-size: 18px;
     }
+
     .about h2,
     .experience h2,
     .form h2,
@@ -216,6 +264,7 @@
         font-size: 30px;
         padding-top: 5%;
     }
+
     .about-caption-1 li,
     .about-caption-1 p,
     .form p,
@@ -223,166 +272,253 @@
         font-size: 16px;
         line-height: 26px;
     }
+
     .contact-lightbox {
         width: 90%;
     }
+
     .lightbox-body {
         margin: 20% auto;
     }
+
     .contact-caption p {
-      padding: 10px;
+        padding: 10px;
     }
+
     .about-caption-1 h6,
     .about-caption-1 h6 a {
         font-size: 18px;
         padding-top: 5%;
     }
+
     .about-caption-1 h5 {
         font-size: 20px;
         line-height: 28px;
     }
-    .exp-caption{
+
+    .exp-caption {
         padding-top: 5%;
     }
+
     .about-1 {
         margin-top: 0%;
     }
+
     .experience {
         padding-top: 5%;
     }
+
     .img-built {
         width: 100%;
         bottom: -3%;
     }
+
+    .nav-tabs {
+        border-bottom: 0px;
+        justify-content: center;
+    }
+
+    .img-portfolio {
+        margin-top: 0px;
+    }
+
+    .nav-tabs .nav-link {
+        border: 0px solid transparent;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+
+    }
+
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        font-family: 'poppinsregular';
+        font-size: 16px;
+        color: #fff !important;
+        background-color: #638c7b;
+        padding: 10px 22px;
+        border-radius: 0px;
+    }
+
+    #nav-tab a {
+        color: #638c7b;
+    }
+
     .work {
         padding-top: 0%;
         padding-bottom: 10%;
     }
+
     .img-project-done {
         width: 100%;
     }
-    .exp-caption, .about-caption-1 h5, .about-caption-1 p{
+
+    .exp-caption,
+    .about-caption-1 h5,
+    .about-caption-1 p {
         text-align: center;
     }
+
     .about {
         padding-top: 0%;
     }
+
     .img-exp {
         width: 100%;
         margin-top: 0%;
         margin-bottom: 5%;
     }
-    .abt-caption{
+
+    .abt-caption {
         text-align: center;
     }
+
     .work-details h3 {
         font-size: 22px;
     }
+
     .work-details {
         margin-top: 2%;
         margin-bottom: 5%;
     }
+
     .work-row {
         padding-top: 0;
         padding-bottom: 0;
     }
+
     .know-more,
     .smt-btn {
         font-size: 16px;
         padding: 10px 20px;
     }
+
     .bg-about {
         width: 85%;
     }
+
     img {
         vertical-align: middle;
         border-style: none;
     }
-    .project-details h2, .project-details-1 h2, .project-details p, .project-details .read-more, .project-details-1 p, .project-details-1 .read-more, .more, .more-1{
+
+    .project-details h2,
+    .project-details-1 h2,
+    .project-details p,
+    .project-details .read-more,
+    .project-details-1 p,
+    .project-details-1 .read-more,
+    .more,
+    .more-1 {
         text-align: center;
     }
-    .project-details, .project-details-1{
+
+    .project-details,
+    .project-details-1 {
         padding-left: 0%;
         padding-right: 0%;
         padding-top: 0%;
-    padding-bottom: 10%;
+        padding-bottom: 10%;
+        text-align: center;
     }
+
     .form-control {
         font-size: 15px;
     }
+
     .contact-caption {
         padding-bottom: 8%;
     }
+
     .form {
         padding-bottom: 10%;
     }
+
     .sub-footer {
         padding-top: 4%;
         padding-bottom: 4%;
     }
+
     .sub-footer-caption a,
     .sub-footer-caption p {
         font-size: 16px;
     }
+
     .fa.fa-mobile {
         font-size: 32px;
     }
 }
+
 @media (max-width: 414px) {
     .banner-caption {
         top: 25%;
     }
-    .about-caption-1 li, .about-caption-1 p, .form p, .work p {
+
+    .about-caption-1 li,
+    .about-caption-1 p,
+    .form p,
+    .work p {
         font-size: 15px;
         line-height: 26px;
     }
-   
+
 }
-@media (max-width: 412px){
+
+@media (max-width: 412px) {
     .experience {
         padding-top: 5%;
     }
+
     .img-built {
         width: 100%;
         bottom: -2%;
     }
 }
+
 @media (max-width: 384px) {
     .navbar-brand {
         margin-right: -3rem;
     }
+
     .banner-caption h6 {
         font-size: 16px;
         line-height: 24px;
     }
+
     .get-in-touch {
         font-size: 16px;
     }
+
     .about-caption h1 {
         font-size: 26px;
     }
+
     .about-caption p {
         font-size: 16px;
     }
+
     .fa.fa-linkedin-square {
         width: 50px;
         height: 50px;
         padding: 26%;
         font-size: 25px;
     }
+
     .fa.fa-envelope {
         width: 50px;
         height: 50px;
         padding: 26%;
         font-size: 20px;
     }
+
     .experience {
         padding-top: 5%;
     }
+
     .img-built {
         width: 100%;
         bottom: -1%;
     }
+
     .about h2,
     .experience h2,
     .form h2,
@@ -390,6 +526,7 @@
         font-size: 24px;
         padding-top: 5%;
     }
+
     .about-caption-1 li,
     .about-caption-1 p,
     .form p,
@@ -397,63 +534,81 @@
         font-size: 15px;
         line-height: 24px;
     }
+
     .about-caption-1 h6,
     .about-caption-1 h6 a {
         font-size: 18px;
         padding-top: 5%;
     }
+
     .about-caption-1 h5 {
         font-size: 16px;
         line-height: 24px;
     }
+
     .pie-wrapper {
         margin-left: 23%;
         margin-top: 10%;
         margin-bottom: 10%;
         margin-right: 25%;
     }
+
     .work-details h3 {
         font-size: 20px;
     }
+
     .know-more,
     .smt-btn {
         font-size: 15px;
         padding: 10px 20px;
     }
+
     .form-control {
         font-size: 14px;
     }
+
     .sub-footer-caption a,
     .sub-footer-caption p {
         font-size: 14px;
     }
+
     .fa.fa-mobile {
         font-size: 28px;
     }
 }
+
 @media (max-width: 360px) {
     .banner-image {
         top: 0%;
     }
+
     .banner-caption {
         top: 30%;
     }
+
     .banner-caption h6 {
         font-size: 15px;
         line-height: 22px;
     }
+
     .banner-caption p {
         font-size: 14px;
     }
-    .banner-caption h1, .banner-caption h2 {
+
+    .banner-caption h1,
+    .banner-caption h2 {
         font-size: 30px;
     }
-    .get-in-touch, .btn-resume {
+
+    .get-in-touch,
+    .btn-resume {
         font-size: 14px;
     }
+
     .about {
         padding-top: 5%;
     }
+
     .about-caption-1 li,
     .about-caption-1 p,
     .form p,
@@ -461,12 +616,15 @@
         font-size: 14px;
         line-height: 22px;
     }
+
     .about-caption h1 {
         font-size: 24px;
     }
+
     .about-caption p {
         font-size: 14px;
     }
+
     .about h2,
     .experience h2,
     .form h2,
@@ -474,60 +632,81 @@
         font-size: 22px;
         padding-top: 5%;
     }
+
     .about-caption-1 h6,
     .about-caption-1 h6 a {
         font-size: 16px;
         padding-top: 5%;
     }
+
     .about-caption-1 h5 {
         font-size: 15px;
         line-height: 22px;
     }
+
     .know-more,
     .smt-btn {
         font-size: 13px;
         padding: 10px 20px;
     }
 }
+
 @media (max-width: 320px) {
     .navbar-light .navbar-nav .nav-link {
         font-size: 14px;
     }
+
     .banner-caption h1,
     .banner-caption h2 {
         font-size: 28px;
     }
+
     .banner-caption p {
         font-size: 12px;
     }
+
     .banner-caption h6 {
         font-size: 12px;
         line-height: 22px;
     }
+
     .get-in-touch {
         font-size: 12px;
     }
+
     .work-details h3 {
         font-size: 14px;
     }
+
     .form-control {
         font-size: 12px;
     }
+
     .sub-footer-caption a,
     .sub-footer-caption p {
         font-size: 12px;
     }
+
     .pie-wrapper {
         margin-left: 18%;
         margin-top: 10%;
         margin-bottom: 10%;
         margin-right: 18%;
     }
-    .about-caption-1 li, .about-caption-1 p, .form p, .work p {
+
+    .about-caption-1 li,
+    .about-caption-1 p,
+    .form p,
+    .work p {
         font-size: 12px;
         line-height: 22px;
     }
-    .get-in-touch, .btn-resume, .read-more, .read-more-1, .show-more {
+
+    .get-in-touch,
+    .btn-resume,
+    .read-more,
+    .read-more-1,
+    .show-more {
         font-size: 13px;
     }
 }
