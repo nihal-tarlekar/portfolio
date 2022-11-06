@@ -243,6 +243,10 @@ button:focus {
     font-size: 16px;
 }
 
+.about-caption-1 li {
+    text-align: justify;
+}
+
 .about-caption-1 li,
 .about-caption-1 p,
 .form p,
@@ -274,7 +278,7 @@ button:focus {
 }
 
 .about-1 {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .about-content:first-child {
@@ -382,8 +386,9 @@ button:focus {
 }
 
 .img-exp {
-    width: 100%;
-    margin-top: 10%;
+    width: 75%;
+    display: block;
+    margin: auto;
 }
 
 #pills-tab {
